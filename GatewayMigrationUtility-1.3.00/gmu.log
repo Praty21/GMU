@@ -1,0 +1,1155 @@
+Jan 30, 2018 11:35:53 AM com.ca.gateway.rest.commandline.Main main
+INFO: No command given. Printing available commands.
+Oct 08, 2018 2:17:40 PM com.ca.gateway.rest.commandline.Main main
+INFO: No command given. Printing available commands.
+Oct 09, 2018 11:15:51 AM com.ca.gateway.rest.commandline.Main main
+INFO: No command given. Printing available commands.
+Oct 09, 2018 11:16:09 AM com.ca.gateway.rest.commandline.Main main
+INFO: No command given. Printing available commands.
+Oct 09, 2018 11:41:18 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: encodePassword
+Oct 09, 2018 11:48:03 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 11:48:03 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 11:51:46 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 11:51:46 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 11:56:27 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 11:56:27 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 11:59:48 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 11:59:48 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 11:59:48 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 09, 2018 11:59:50 AM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.WebApplicationException: 500 Internal Server Error
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.getBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+
+Oct 09, 2018 12:00:43 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 12:00:43 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 12:00:43 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 09, 2018 12:00:45 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.WebApplicationException: 500 Internal Server Error
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.getBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+
+Oct 09, 2018 12:01:10 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 12:01:11 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 12:01:11 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 09, 2018 12:01:13 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.WebApplicationException: 500 Internal Server Error
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.getBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+
+Oct 09, 2018 12:02:55 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 12:02:55 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 12:02:55 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 09, 2018 12:02:57 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.WebApplicationException: 500 Internal Server Error
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.getBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+
+Oct 09, 2018 12:04:33 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 12:04:33 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 12:07:32 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 12:07:32 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 12:07:32 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 09, 2018 12:10:09 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 12:10:09 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 12:10:09 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 09, 2018 12:10:11 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.WebApplicationException: 500 Internal Server Error
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.getBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+
+Oct 09, 2018 12:10:31 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 12:10:31 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 12:10:31 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 09, 2018 12:10:33 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.WebApplicationException: 500 Internal Server Error
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.getBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+
+Oct 09, 2018 12:14:38 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: template
+Oct 09, 2018 12:17:28 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: detemplate
+Oct 09, 2018 12:19:13 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 12:19:15 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 12:24:35 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 12:24:39 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: Already connected
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:236)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.putXml(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.importBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestProperty(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.setRequestProperty(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:292)
+	at org.glassfish.jersey.client.HttpUrlConnector.access$100(HttpUrlConnector.java:83)
+	at org.glassfish.jersey.client.HttpUrlConnector$3.getOutputStream(HttpUrlConnector.java:266)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:200)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:194)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commit(CommittingOutputStream.java:262)
+	at org.glassfish.jersey.message.internal.OutboundMessageContext.commitStream(OutboundMessageContext.java:812)
+	at org.glassfish.jersey.client.ClientRequest.writeEntity(ClientRequest.java:526)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:270)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	... 14 more
+
+Oct 09, 2018 12:24:54 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 12:24:58 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: Already connected
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:236)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.putXml(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.importBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestProperty(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.setRequestProperty(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:292)
+	at org.glassfish.jersey.client.HttpUrlConnector.access$100(HttpUrlConnector.java:83)
+	at org.glassfish.jersey.client.HttpUrlConnector$3.getOutputStream(HttpUrlConnector.java:266)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:200)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:194)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commit(CommittingOutputStream.java:262)
+	at org.glassfish.jersey.message.internal.OutboundMessageContext.commitStream(OutboundMessageContext.java:812)
+	at org.glassfish.jersey.client.ClientRequest.writeEntity(ClientRequest.java:526)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:270)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	... 14 more
+
+Oct 09, 2018 12:25:18 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 12:25:19 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 12:25:34 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 12:25:36 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 1:12:41 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:12:44 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 1:14:48 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:14:50 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 1:22:36 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:22:36 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+com.ca.gateway.rest.api.ClientException: Error creating keystore: stream does not represent a PKCS12 key store
+	at com.ca.gateway.rest.api.ClientConfig.a(Unknown Source)
+	at com.ca.gateway.rest.api.ClientConfig.getClient(Unknown Source)
+	at com.ca.gateway.rest.api.resource.a.getClient(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.io.IOException: stream does not represent a PKCS12 key store
+	at org.bouncycastle.jce.provider.JDKPKCS12KeyStore.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(Unknown Source)
+	... 10 more
+
+Oct 09, 2018 1:25:11 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:25:13 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 1:30:52 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 1:30:52 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:30:53 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.AbstractTrustManagerWrapper.checkAdditionalTrust(Unknown Source)
+	at sun.security.ssl.AbstractTrustManagerWrapper.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 1:32:13 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 1:32:13 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:32:14 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 38 more
+
+Oct 09, 2018 1:33:39 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:33:40 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 1:34:47 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 1:34:48 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:34:49 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 38 more
+
+Oct 09, 2018 1:35:25 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 1:35:25 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 1:35:25 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:40:58 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:40:59 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 1:42:04 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:42:06 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 09, 2018 1:42:21 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 09, 2018 1:42:21 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:42:22 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 38 more
+
+Oct 09, 2018 1:42:35 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 09, 2018 1:42:35 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 09, 2018 1:42:37 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+Caused by: java.security.cert.CertificateException: No subject alternative names present
+	at sun.security.util.HostnameChecker.matchIP(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at sun.security.ssl.AbstractTrustManagerWrapper.checkAdditionalTrust(Unknown Source)
+	at sun.security.ssl.AbstractTrustManagerWrapper.checkServerTrusted(Unknown Source)
+	... 32 more
+
+Oct 21, 2018 2:18:00 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 2:18:00 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 2:18:00 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 21, 2018 2:18:05 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+java.lang.RuntimeException: Error writing to file 'C:\Users\SINPRAT\Desktop\Desktop\Features\GMU\g1.xml': C:\Users\SINPRAT\Desktop\Desktop\Features\GMU\g1.xml (The system cannot find the path specified)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.io.FileNotFoundException: C:\Users\SINPRAT\Desktop\Desktop\Features\GMU\g1.xml (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	... 6 more
+
+Oct 21, 2018 2:19:20 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 2:19:20 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 2:19:20 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 21, 2018 2:20:26 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 2:20:26 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 2:20:26 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 21, 2018 2:20:49 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: java.net.ConnectException: Connection timed out: connect
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Folders$IdDependencies.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getDependencies(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.FolderEntityResource.getPaletteTree(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 16 more
+
+Oct 21, 2018 2:25:38 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 2:25:38 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 2:25:38 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 21, 2018 2:25:46 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+java.lang.RuntimeException: Error loading bundle 'C:\Users\SINPRAT\Desktop\Desktop\Features\GMU\g1.xml': C:\Users\SINPRAT\Desktop\Desktop\Features\GMU\g1.xml
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.b(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.nio.file.NoSuchFileException: C:\Users\SINPRAT\Desktop\Desktop\Features\GMU\g1.xml
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(Unknown Source)
+	at java.nio.file.Files.newInputStream(Unknown Source)
+	... 5 more
+
+Oct 21, 2018 2:26:26 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 2:26:26 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 2:26:26 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 21, 2018 2:39:25 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 2:39:25 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 2:39:25 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 21, 2018 2:46:46 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 2:46:46 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 2:46:46 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 21, 2018 2:48:09 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 2:48:09 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 2:48:09 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 21, 2018 3:48:36 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 3:48:36 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 3:48:36 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 21, 2018 3:57:51 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 3:57:51 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 3:57:51 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Oct 21, 2018 4:01:07 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 4:01:07 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 4:01:07 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Oct 21, 2018 4:01:56 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Oct 21, 2018 4:01:56 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Oct 21, 2018 4:01:56 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut

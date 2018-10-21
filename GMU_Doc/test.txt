@@ -1,0 +1,65 @@
+Migrating with 1 service ID:
+
+1.) First Migrate the service to GMU folder
+
+C:\Users\pratyush\Desktop\GMU>C:\Users\pratyush\Desktop\GMU\GatewayMigrationUtility.bat migrateOut --host 192.168.108.128 --username devadmin --plaintextPassword L7Secure$0@ --plaintextEncryptionPassphrase 7layer --dest dev.xml --service eb8b46d86703a9c224d30de1d6d44155 --defaultAction NewOrUpdate --trustCertificate --trustHostname
+
+If we have to migrate a service from a folder then run the below command:
+
+C:\Users\pratyush\Desktop\GMU>C:\Users\pratyush\Desktop\GMU\GatewayMigrationUtility.bat migrateOut --host 192.168.108.128 --username admin --plaintextPassword 7layer --plaintextEncryptionPassphrase 7layer --dest C:\Users\pratyush\Desktop\GMU\dev.xml --defaultAction NewOrUpdate --trustCertificate --trustHostname --service eb8b46d86703a9c224d30de1d6d44155 --folderName /Dev
+Warning: TLS hostname verification has been disabled
+Warning: TLS server certificate check has been disabled
+Running..........
+Done
+
+Now migrate in from gmu folder
+
+C:\Users\pratyush\Desktop\GMU>C:\Users\pratyush\Desktop\GMU\GatewayMigrationUtility.bat migrateIn --host 192.168.108.129 --username admin --plaintextPassword 7layer --plaintextEncryptionPassphrase 7layer --bundle C:\Users\pratyush\Desktop\GMU\dev.xml --trustCertificate --trustHostname --results C:\Users\pratyush\Desktop\GMU\results.xml
+Warning: TLS hostname verification has been disabled
+Warning: TLS server certificate check has been disabled
+Running.....................................
+MigrateIn results saved in: C:\Users\pratyush\Desktop\GMU\results.xml
+Migrate in successful
+
+If we want to migrate it in Folder then run below command:
+
+
+C:\Users\pratyush\Desktop\GMU>C:\Users\pratyush\Desktop\GMU\GatewayMigrationUtility.bat migrateIn --host 192.168.108.129 --username admin --plaintextPassword 7layer --plaintextEncryptionPassphrase 7layer --bundle C:\Users\pratyush\Desktop\GMU\dev.xml --trustCertificate --trustHostname --results C:\Users\pratyush\Desktop\GMU\results.xml --destFolder /Test
+Warning: TLS hostname verification has been disabled
+Warning: TLS server certificate check has been disabled
+Running.....................................
+MigrateIn results saved in: C:\Users\pratyush\Desktop\GMU\results.xml
+Migrate in successful
+
+
+2.) 
+
+1.) A complete scenario where we are going to migrate the APIs from lower to higher environment. Below minimal steps we can follow in order to migrate the complete setup (including JDBC setup, cluster-wide properties etc)
+
+As first step we need to migrate the required policy i.e. from DEV environment. To achieve this we need to use migrateOut command:
+
+GatewayMigrationUtility.bat migrateIn --host 192.168.108.129 --username admin --plaintextPassword 7layer --plaintextEncryptionPassphrase 7layer --bundle C:\Users\pratyush\Desktop\GMU\dev.xml --trustCertificate --trustHostname
+
+--hostName: Name of the host from which you want to migrate (In our case it is DEV environment)
+--dest: It is an xml file is ot be created which contains policies in xml format with all the details including cluster wide properties and jdbc connections
+--bundle : XML file created after migrateOut command in GMU folder
+
+2.) We have to create template properties for the requied policy (dev.xml) by templating command:
+
+GatewayMigrationUtility.bat template --bundle dev.xml --template devtemplate.properties
+
+3.) Now we can change the values which are different than lower environment. Now save the file , then we will create xml file again after doing detemplate in next step.
+
+4.) De-template into xml file from modified devtemplate template properties file:
+
+GatewayMigrationUtility.bat detemplate --bundle dev.xml --template devtemplate.properties
+
+Now it will create xml file dev.xml with modified values
+
+5.) Migrate in the policy in higher environment
+
+GatewayMigrationUtility.bat migrateIn --host 192.168.108.129 --username admin --plaintextPassword 7layer --plaintextEncryptionPassphrase 7layer  --bundle dev.xml --results results.xml --destFolder /Test/
+
+--bundle: Modified XML file
+--destFolder: Destination folder where we need to migrate the policies in higher environment 
+--results: It creates an XML file which shows the results of migration whether migration is successful or failed with proper reason.

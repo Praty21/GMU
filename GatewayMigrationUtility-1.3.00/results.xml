@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<l7:Item xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+    <l7:Name>Bundle mappings</l7:Name>
+    <l7:Type>BUNDLE MAPPINGS</l7:Type>
+    <l7:TimeStamp>2018-10-21T03:27:57.233-07:00</l7:TimeStamp>
+    <l7:Link rel="self" uri="https://gateway4.l7tech.com:8443/restman/1.0/bundle?test=false&amp;activate=true"/>
+    <l7:Resource>
+        <l7:Mappings>
+            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://gateway1.l7tech.com:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" targetId="00000000000000000000000000000002:SSL" targetUri="https://gateway4.l7tech.com:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
+            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://gateway1.l7tech.com:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" targetId="ea19e537d73ee85601aa7f13434fe398" targetUri="https://gateway4.l7tech.com:8443/restman/1.0/folders/ea19e537d73ee85601aa7f13434fe398" type="FOLDER">
+                <l7:Properties>
+                    <l7:Property key="FailOnNew">
+                        <l7:BooleanValue>true</l7:BooleanValue>
+                    </l7:Property>
+                </l7:Properties>
+            </l7:Mapping>
+            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="174facccbab395464bc4143bf0eebd4c" srcUri="https://gateway1.l7tech.com:8443/restman/1.0/services/174facccbab395464bc4143bf0eebd4c" targetId="174facccbab395464bc4143bf0eebd4c" targetUri="https://gateway4.l7tech.com:8443/restman/1.0/services/174facccbab395464bc4143bf0eebd4c" type="SERVICE"/>
+        </l7:Mappings>
+    </l7:Resource>
+</l7:Item>
